@@ -12,6 +12,12 @@ export default {
     return {
       msg: "Welcome to Your Vue.js App"
     };
+  },
+  mounted() {
+    this.$nextTick(() => {
+      $(".conteiner").hide();
+      $(".conteiner").fadeIn("slow");
+    });
   }
 };
 </script>

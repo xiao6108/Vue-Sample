@@ -1,6 +1,6 @@
-## Vue-cli, pug, sass, Webpack, bootstrap4
+## Vue-cli, pug, sass, Webpack, bootstrap4, jquery
 VueCli Webpack打包網頁，pug、sass、scss編譯
-安裝bootstrap4
+安裝bootstrap4、jquery
 Navbar可切換Vue-router頁面
 
 ## Build Setup
