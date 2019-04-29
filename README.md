@@ -1,21 +1,26 @@
-# vue_webpack
-
-> A Vue.js project
+## Vue-cli, pug, sass, Webpack, bootstrap4
+VueCli Webpack打包網頁，pug、sass、scss編譯
+安裝bootstrap4
+Navbar可切換Vue-router頁面
 
 ## Build Setup
-
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# open in browser localhost:8080
 npm run dev
 
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Vue Cli 環境需求
+- node.js: https://nodejs.org/en/
+- npm: https://www.npmjs.com/
+- webpack ()
+- vuecli: https://github.com/vuejs-templates/webpack
+
+## Authors
+* **呂亞宸** - *Initial work* - [Github: xiao6108](https://github.com/PurpleBooth)
