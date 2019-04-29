@@ -1,21 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Hello2 from '@/components/Hello2'
+import About from '@/components/About'
+import Skill from '@/components/Skill'
+import Works from '@/components/Works'
+import Social from '@/components/Social'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/About',
+      name: 'About',
+      component: About
     },
     {
-      path: '/Hello2',
-      name: 'HelloWorld',
-      component: Hello2
+      path: '/Skill',
+      name: 'Skill',
+      component: Skill
+    },
+    {
+      path: '/Works',
+      name: 'Works',
+      component: Works
+    },
+    {
+      path: '/Social',
+      name: 'Social',
+      component: Social
     }
+
   ]
 })

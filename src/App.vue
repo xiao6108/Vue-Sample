@@ -7,16 +7,15 @@
       #navbarNav.collapse.navbar-collapse
         ul.navbar-nav
           li.nav-item.active
-            a.nav-link(href='#')
-              | Home
+            router-link.nav-link(:to="'ABOUT'") ABOUT
               span.sr-only (current)
           li.nav-item
-            a.nav-link(href='#') Features
+            router-link.nav-link(:to="'SKILL'") SKILL
           li.nav-item
-            a.nav-link(href='#') Pricing
+            router-link.nav-link(:to="'WORKS'") WORKS
           li.nav-item
-            a.nav-link.disabled(href='#') Disabled
-
+            router-link.nav-link(:to="'SOCIAL'") SOCIAL
+    router-view
 </template>
 
 <script>

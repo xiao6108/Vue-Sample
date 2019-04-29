@@ -1,10 +1,13 @@
 <template lang="pug">
-  h1 Hello2!
+  #app
+    section
+      .conteiner
+        h1 About
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "About",
   data() {
     return {
       msg: "Welcome to Your Vue.js App"
@@ -14,7 +17,7 @@ export default {
 </script>
 
 
-<style lang="scss"scoped>
+<style lang="scss">
 h1 {
   font-weight: bold;
 }
